@@ -15,7 +15,7 @@ const Contact = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors, isSubmitSuccessful },
+    formState: { errors },
     reset,
   } = useForm<FormInputs>();
 

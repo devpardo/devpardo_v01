@@ -21,8 +21,12 @@ const Footer = () => {
       <ScrollToTop
         className="!flex items-center !justify-center pt-1 border-none !bg-[#fce94b] !shadow-none !h-20 !w-[100px] bg-transparent"
         smooth
+        top={800}
         component={<Rocket />}
-        style={{ bottom: 20, right: 0 }}
+        style={{
+          bottom: 100,
+          right: 0,
+        }}
       />
     </>
   );

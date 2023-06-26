@@ -9,7 +9,7 @@ export const data = [
         ],
         description: "",
         img: 'bpstore',
-        url: 'asddsad'
+        url: 'https://projectbpstore.devpardo.com/'
     },
     {
         id: 2,
@@ -24,7 +24,7 @@ export const data = [
         ],
         description: "",
         img: 'moa',
-        url: 'asddsad'
+        url: 'https://projectmoa.devpardo.com/'
     },
     {
         id: 3,
@@ -39,7 +39,7 @@ export const data = [
         ],
         description: "",
         img: 'writeology',
-        url: 'asddsad'
+        url: 'https://projectwriteology.devpardo.com/'
     },
     {
         id: 4,
@@ -53,6 +53,6 @@ export const data = [
         ],
         description: "",
         img: 'casita',
-        url: 'asddsad'
+        url: 'https://www.casitadeisabelle.com'
     }
 ]

@@ -6,11 +6,15 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Home.css";
 import video from "../../assets/Untitled.mp4";
 import Hand from "../../assets/hand.svg";
+import { Element } from "react-scroll";
 
 const Home = () => {
   return (
     <>
-      <div name="home" className="home w-full h-screen bg-transparent relative">
+      <Element
+        name="home"
+        className="home w-full h-screen bg-transparent relative"
+      >
         <video
           autoPlay
           loop
@@ -37,7 +41,7 @@ const Home = () => {
           <h2 className="text-3xl sm:text-6xl font-bold text-[#1ea4f3]">
             a Frontend Developer.
           </h2>
-          <p className="text-[#fff] py-4 lg:max-w-[70%] tracking-wide">
+          <p className="text-[#fff] py-4 lg:max-w-[70%] tracking-wide text-sm lg:text-base">
             I'm a passionate frontend developer frontend developer specializing
             in Vue.js and React.js, two powerful JavaScript frameworks that have
             revolutionized the way we build user interfaces. From concept to
@@ -86,7 +90,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </Element>
     </>
   );
 };

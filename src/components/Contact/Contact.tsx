@@ -1,9 +1,11 @@
 import Footer from "../Footer/Footer";
 import "./Contact.css";
+import { Element } from "react-scroll";
+
 const Contact = () => {
   return (
     <>
-      <div
+      <Element
         name="contact"
         className="contact w-full h-screen bg-[#0c001e] flex justify-center items-center p-4"
       >
@@ -13,8 +15,12 @@ const Contact = () => {
           className="flex flex-col max-w-[600px] w-full"
         >
           <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
-              Contact
+            <h1 className="text-4xl sm:text-5xl font-bold text-[#29459e]">
+              Lets talk!
+            </h1>
+            <p className="text-[#8892b0] py-4 text-sm lg:text-base">
+              Feel free to Contact me by submitting the form below and I will
+              get back to you as soon as possible
             </p>
           </div>
           <input
@@ -30,9 +36,9 @@ const Contact = () => {
             name="email"
           />
           <textarea
-            className="bg-[#ccd6f6] p-2"
+            className="bg-[#ccd6f6] p-2 rounded-lg"
             name="message"
-            rows="10"
+            rows={10}
             placeholder="Message"
           ></textarea>
 
@@ -40,7 +46,7 @@ const Contact = () => {
             Send Message
           </button>
         </form>
-      </div>
+      </Element>
       <Footer></Footer>
     </>
   );

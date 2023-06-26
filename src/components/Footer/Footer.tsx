@@ -1,5 +1,5 @@
 import ScrollToTop from "react-scroll-to-top";
-import { ReactComponent as Rocket } from "../../assets/rocket.svg";
+import Rocket from "../Rocket";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -22,6 +22,7 @@ const Footer = () => {
         className="!flex items-center !justify-center pt-1 border-none !bg-[#fce94b] !shadow-none !h-20 !w-[100px] bg-transparent"
         smooth
         component={<Rocket />}
+        style={{ bottom: 20, right: 0 }}
       />
     </>
   );

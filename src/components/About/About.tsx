@@ -1,9 +1,25 @@
 import { Element } from "react-scroll";
 const About = () => {
+  const tools = [
+    "react",
+    "vue",
+    "javascript",
+    "html",
+    "css",
+    "node",
+    "tailwind",
+    "bootstrap",
+    "vscode",
+    "php",
+    "github",
+  ];
   return (
     <>
-      <Element name="about" className="w-full h-screen bg-[#c6c87b] text-black">
-        <div className="flex flex-col justify-center items-center w-full h-full">
+      <Element
+        name="about"
+        className="w-full min-h-screen bg-[#c6c87b] text-black"
+      >
+        <div className="flex flex-col justify-center items-center w-full h-full pt-56">
           <div className="max-w-[1000px] w-full">
             <div className="pl-4">
               <h1 className="text-4xl sm:text-5xl font-bold text-[#29459e]">
@@ -32,7 +48,21 @@ const About = () => {
             </div>
 
             <div>
-              <h3>Technical toolbox</h3>
+              <h3>My Technical toolbox</h3>
+              <div className="flex flex-wrap gap-6 mt-3 p-3 items-center">
+                {tools.map((tool, index) => (
+                  <div
+                    key={index}
+                    className="bg-[#333333] rounded-full p-3 cursor-pointer"
+                  >
+                    <img
+                      className="lg:h-12 lg:w-12 w-10 h-10"
+                      src={`/tools/${tool}.png`}
+                      alt={tool}
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

@@ -1,9 +1,11 @@
 export const data = [
     {
         id: 1,
-        name:"React JS Application",
+        name:"Storelink Landing Page",
         tools: [
-            { name: "React" }
+            { name: "Vue.js" },
+            { name: "HTML5" },
+            { name: "SCSS" },
         ],
         description: "",
         img: 'bpstore',
@@ -11,9 +13,14 @@ export const data = [
     },
     {
         id: 2,
-        name:"React JS Application",
+        name:"Mall of Arabia Website",
         tools: [
-            { name: "React" }
+            { name: "Vue.js" },
+            { name: "Pinia" },
+            { name: "Nuxt" },
+            { name: "HTML5" },
+            { name: "SCSS" },
+            { name: "Vuetify" },
         ],
         description: "",
         img: 'moa',
@@ -21,9 +28,14 @@ export const data = [
     },
     {
         id: 3,
-        name:"React JS Application",
+        name:"Writeology Blog",
         tools: [
-            { name: "React" }
+            { name: "Vue.js" },
+            { name: "Vuex" },
+            { name: "Nuxt" },
+            { name: "HTML5" },
+            { name: "SCSS" },
+            { name: "Boostrap" },
         ],
         description: "",
         img: 'writeology',
@@ -31,9 +43,13 @@ export const data = [
     },
     {
         id: 4,
-        name:"React JS Application",
+        name:"Casita de Isabelle Website",
         tools: [
-            { name: "React" }
+            { name: "React" },
+            { name: "Tailwind" },
+            { name: "HTML5" },
+            { name: "SCSS" },
+            { name: "react-forms" },
         ],
         description: "",
         img: 'casita',
